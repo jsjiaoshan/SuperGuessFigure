@@ -16,6 +16,8 @@
 		482A91DB23EEC08700BAF1B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482A91DA23EEC08700BAF1B5 /* main.m */; };
 		482A91E523EEC08700BAF1B5 /* SuperGuessFigureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482A91E423EEC08700BAF1B5 /* SuperGuessFigureTests.m */; };
 		482A91F023EEC08800BAF1B5 /* SuperGuessFigureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482A91EF23EEC08800BAF1B5 /* SuperGuessFigureUITests.m */; };
+		482A91FE23EF112300BAF1B5 /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 482A91FD23EF112300BAF1B5 /* questions.plist */; };
+		482A920123EF2D9200BAF1B5 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 482A920023EF2D9200BAF1B5 /* QuestionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		482A91EB23EEC08800BAF1B5 /* SuperGuessFigureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperGuessFigureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		482A91EF23EEC08800BAF1B5 /* SuperGuessFigureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperGuessFigureUITests.m; sourceTree = "<group>"; };
 		482A91F123EEC08800BAF1B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482A91FD23EF112300BAF1B5 /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		482A91FF23EF2D9200BAF1B5 /* QuestionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
+		482A920023EF2D9200BAF1B5 /* QuestionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,7 @@
 		482A91C723EEC08500BAF1B5 /* SuperGuessFigure */ = {
 			isa = PBXGroup;
 			children = (
+				482A91FD23EF112300BAF1B5 /* questions.plist */,
 				482A91C823EEC08500BAF1B5 /* AppDelegate.h */,
 				482A91C923EEC08500BAF1B5 /* AppDelegate.m */,
 				482A91CB23EEC08500BAF1B5 /* SceneDelegate.h */,
@@ -115,6 +121,8 @@
 				482A91D623EEC08700BAF1B5 /* LaunchScreen.storyboard */,
 				482A91D923EEC08700BAF1B5 /* Info.plist */,
 				482A91DA23EEC08700BAF1B5 /* main.m */,
+				482A91FF23EF2D9200BAF1B5 /* QuestionModel.h */,
+				482A920023EF2D9200BAF1B5 /* QuestionModel.m */,
 			);
 			path = SuperGuessFigure;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482A91FE23EF112300BAF1B5 /* questions.plist in Resources */,
 				482A91D823EEC08700BAF1B5 /* LaunchScreen.storyboard in Resources */,
 				482A91D523EEC08700BAF1B5 /* Assets.xcassets in Resources */,
 				482A91D323EEC08500BAF1B5 /* Main.storyboard in Resources */,
@@ -267,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482A920123EF2D9200BAF1B5 /* QuestionModel.m in Sources */,
 				482A91D023EEC08500BAF1B5 /* ViewController.m in Sources */,
 				482A91CA23EEC08500BAF1B5 /* AppDelegate.m in Sources */,
 				482A91DB23EEC08700BAF1B5 /* main.m in Sources */,
