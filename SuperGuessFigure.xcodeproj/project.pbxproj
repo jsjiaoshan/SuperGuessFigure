@@ -448,7 +448,7 @@
 		482A91F523EEC08800BAF1B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SuperGuessFigure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,7 +464,7 @@
 		482A91F623EEC08800BAF1B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SuperGuessFigure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

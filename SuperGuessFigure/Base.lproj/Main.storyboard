@@ -33,6 +33,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="大图" image="icon_img" backgroundImage="btn_right"/>
                                 <state key="highlighted" backgroundImage="btn_right_highlighted"/>
+                                <connections>
+                                    <action selector="btnBigImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C8u-oD-9G2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xm-fG-2x8">
                                 <rect key="frame" x="0.0" y="289" width="70" height="36"/>
@@ -66,18 +69,36 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
                                 <state key="normal" image="people-cls" backgroundImage="center_img"/>
+                                <connections>
+                                    <action selector="HeaderImageChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XgW-Cv-sbw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCg-yO-Mde">
                                 <rect key="frame" x="0.0" y="137" width="70" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="提示" image="icon_tip" backgroundImage="btn_left"/>
                                 <state key="highlighted" backgroundImage="btn_left_highlighted"/>
+                                <connections>
+                                    <action selector="btnTip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jwn-NO-4cS"/>
+                                </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GO1-KE-KeJ">
+                                <rect key="frame" x="0.0" y="370" width="414" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bEA-6u-N1c">
+                                <rect key="frame" x="0.0" y="486" width="414" height="410"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="answerBtns" destination="GO1-KE-KeJ" id="Ibl-X8-qxV"/>
+                        <outlet property="backAnswerBtns" destination="bEA-6u-N1c" id="jyk-G0-tac"/>
                         <outlet property="btnIcon" destination="O7E-DE-I2h" id="k6Q-Af-jwg"/>
                         <outlet property="btnNext" destination="MuV-Rx-onL" id="Cmf-Bl-Xl4"/>
                         <outlet property="btnScore" destination="96B-yT-WS2" id="hEA-dK-AzZ"/>
